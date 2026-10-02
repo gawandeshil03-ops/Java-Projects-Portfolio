@@ -1,63 +1,82 @@
-# 👨‍💻 Full-Stack Java Developer Portfolio
+# 👨‍💻 Shil Gawande | Full-Stack Java Developer
 
-Welcome to my **Full-Stack Java Development Portfolio**.
+<p align="center">
+  <b>Full-Stack Java Developer Portfolio</b>
+</p>
 
-This repository serves as a central hub for my major software engineering projects, demonstrating practical experience in **Java, Spring Boot, Spring Security, REST APIs, React, SQL, microservices, distributed systems, authentication, and DevOps**.
-
-The projects cover different real-world domains including **E-Commerce, FinTech Banking, and Travel Booking**.
-
----
-
-## 🚀 Projects
-
-| # | Project | Domain | Technologies |
-|---|---|---|---|
-| 1 | 🛒 E-Commerce Microservices Platform | E-Commerce | Java, Spring Boot, Spring Cloud, React, PostgreSQL, Redis, Kafka, RabbitMQ, Docker |
-| 2 | 🏦 FinTech Banking Platform | Banking / FinTech | Java, Spring Boot, React, MySQL, Spring Security, JWT |
-| 3 | ✈️ Hotel & Flight Booking Platform | Travel / Booking | Java, Spring Boot, React, TypeScript, PostgreSQL, JWT, Docker |
+<p align="center">
+  Java • Spring Boot • Spring Security • React • REST APIs • SQL • Microservices • Docker
+</p>
 
 ---
 
-# 🛒 1. E-Commerce Microservices Platform
+## 👋 About Me
 
-### 🔗 Repository
+Hi, I'm **Shil Gawande**, a passionate **Full-Stack Java Developer** interested in building secure, scalable, and real-world software applications.
 
-:contentReference[oaicite:0]{index=0}
+I work primarily with **Java, Spring Boot, Spring Security, REST APIs, React, SQL, and Microservices**. My projects cover multiple real-world domains, including **E-Commerce, FinTech Banking, and Hotel & Flight Booking**.
 
-### 📌 Overview
+Through these projects, I have focused on implementing practical software engineering concepts such as:
 
-A production-style **Spring Boot microservices e-commerce platform** designed around a multi-seller marketplace architecture.
+- RESTful API development
+- Authentication and Authorization
+- JWT Security
+- Database Design and Integration
+- Transaction Management
+- Microservices Architecture
+- Event-Driven Architecture
+- Business Logic
+- Exception Handling
+- Validation
+- Docker and Containerization
+- CI/CD
+- Scalable Backend Development
 
-The platform demonstrates distributed backend architecture, secure authentication, order processing, inventory management, payment workflows, event-driven communication, caching, observability, and a React-based storefront.
+I am currently looking for opportunities where I can **apply my technical skills, contribute to real-world products, learn from experienced developers, and grow as a software engineer**.
 
-### ⭐ Key Features
+---
 
-- Multi-seller marketplace
-- JWT-based authentication
-- Product catalog and search
+# 🚀 My Projects
+
+This repository is the **master portfolio** containing links to my individual project repositories.
+
+Each project below has its own GitHub repository with its source code, documentation, and implementation details.
+
+---
+
+## 🛒 1. E-Commerce Microservices Platform
+
+### 🔗 [View Project Repository](https://github.com/gawandeshil03-ops/Java-project-Portfolio)
+
+A full-stack **E-Commerce Microservices Platform** designed to demonstrate modern backend architecture and real-world e-commerce workflows.
+
+### Key Features
+
+- Product catalog and management
 - Shopping cart
-- Inventory management
 - Order management
-- Distributed order Saga
+- Inventory management
+- User authentication
+- JWT-based security
+- Multi-seller marketplace
 - Payment processing
-- Idempotent order creation
-- Outbox pattern
-- Kafka event publishing
-- RabbitMQ messaging
-- Redis caching
+- Order processing workflows
 - Seller management
 - Reviews and ratings
-- Seller payouts
 - Returns workflow
+- REST APIs
+- Microservices architecture
+- Event-driven communication
+- Distributed transaction handling
 - API Gateway
-- Eureka service discovery
-- AI/MCP recommendation service
-- Prometheus & Grafana monitoring
-- Zipkin distributed tracing
-- Docker Compose deployment
-- GitHub Actions CI/CD
+- Service discovery
+- Redis caching
+- Kafka messaging
+- RabbitMQ messaging
+- Docker-based deployment
+- CI/CD
 
-### 🛠️ Technology Stack
+### Technology Stack
 
 **Backend**
 - Java
@@ -71,74 +90,70 @@ The platform demonstrates distributed backend architecture, secure authenticatio
 - React
 - Vite
 
-**Database & Messaging**
+**Database**
 - PostgreSQL
 - Redis
+
+**Messaging**
 - Apache Kafka
 - RabbitMQ
 
-**DevOps & Observability**
+**DevOps**
 - Docker
 - Docker Compose
 - GitHub Actions
-- Prometheus
-- Grafana
-- Zipkin
 
-### 💡 Engineering Concepts Demonstrated
+### Engineering Concepts
 
-- Microservices architecture
-- Distributed transactions
-- Saga pattern
-- Outbox pattern
-- Event-driven architecture
+- Microservices
+- REST API Design
+- Saga Pattern
+- Outbox Pattern
+- Event-Driven Architecture
 - Idempotency
 - API Gateway
-- Service discovery
-- Distributed tracing
+- Service Discovery
+- Distributed Systems
 - Caching
-- Fault tolerance
 - CI/CD
+
+👉 **[Open E-Commerce Project →](https://github.com/gawandeshil03-ops/Java-project-Portfolio)**
 
 ---
 
 # 🏦 2. FinTech Banking Platform
 
-### 🔗 Repository
+### 🔗 [View Project Repository](https://github.com/gawandeshil03-ops/FinTech-Banking-Platform)
 
-:contentReference[oaicite:1]{index=1}
+A full-stack **FinTech Banking Platform** built to demonstrate secure banking workflows, transaction processing, authentication, and financial business logic.
 
-### 📌 Overview
-
-A full-stack **online banking platform** built with Java Spring Boot and React.
-
-The application models real-world banking workflows including account management, beneficiaries, RTGS and NEFT transfers, transaction tracking, fraud checks, idempotency, audit logging, and secure authentication.
-
-### ⭐ Key Features
+### Key Features
 
 - User registration and login
 - JWT authentication
-- Secure password hashing
+- Secure password handling
 - Account management
 - Balance management
 - Beneficiary management
 - RTGS transfers
 - NEFT transfers
 - Transaction history
-- Pagination and search
+- Transaction search
+- Pagination
 - Duplicate transaction detection
 - Idempotent transactions
-- Daily transfer limits
+- Transfer limits
 - Fraud validation
 - Audit logging
-- Global exception handling
-- Event-based notifications
-- Swagger/OpenAPI documentation
+- Exception handling
+- Notifications
+- REST APIs
+- API documentation
 
-### 🛠️ Technology Stack
+### Technology Stack
 
 **Backend**
-- Java 17
+- Java
 - Spring Boot
 - Spring Security
 - JWT
@@ -159,36 +174,34 @@ The application models real-world banking workflows including account management
 - Docker
 - Kubernetes
 
-### 💡 Engineering Concepts Demonstrated
+### Engineering Concepts
 
-- REST API development
-- Secure authentication
-- ACID transactions
-- Transaction integrity
+- Secure REST APIs
+- Authentication & Authorization
+- Transaction Management
+- ACID Transactions
 - Idempotency
-- Fraud prevention rules
-- Audit logging
-- Global exception handling
-- Scheduled background processing
-- Layered architecture
+- Fraud Validation
+- Audit Logging
+- Exception Handling
+- Layered Architecture
+- Event-Driven Communication
+
+👉 **[Open FinTech Banking Project →](https://github.com/gawandeshil03-ops/FinTech-Banking-Platform)**
 
 ---
 
 # ✈️ 3. Hotel & Flight Booking Platform
 
-### 🔗 Repository
+### 🔗 [View Project Repository](https://github.com/gawandeshil03-ops/Hotel-Flight-Booking-Platform)
 
-:contentReference[oaicite:2]{index=2}
+A full-stack **Hotel & Flight Booking Platform** built using Java Spring Boot, React, TypeScript, and PostgreSQL.
 
-### 📌 Overview
+The project demonstrates booking workflows, authentication, role-based access control, database integration, and transactional business logic.
 
-A full-stack **hotel and flight booking platform** built using Java Spring Boot, React, TypeScript, and PostgreSQL.
+### Key Features
 
-The system provides hotel and flight search, booking management, user authentication, role-based access control, administration features, and transactional booking workflows.
-
-### ⭐ Key Features
-
-- User registration and authentication
+- User registration and login
 - JWT authentication
 - Role-based authorization
 - Customer and Admin roles
@@ -202,18 +215,20 @@ The system provides hotel and flight search, booking management, user authentica
 - Flight booking
 - Booking history
 - Booking cancellation
-- Mock payment processing
+- Payment workflow
 - Admin dashboard
-- Swagger/OpenAPI documentation
+- REST APIs
+- Swagger/OpenAPI
 - Global exception handling
+- Input validation
 - Transactional booking logic
 - Double-booking prevention
 
-### 🛠️ Technology Stack
+### Technology Stack
 
 **Backend**
-- Java 21
-- Spring Boot 3
+- Java
+- Spring Boot
 - Spring Security
 - JWT
 - Spring Data JPA
@@ -236,26 +251,28 @@ The system provides hotel and flight search, booking management, user authentica
 - Docker Compose
 - GitHub Actions
 
-### 💡 Engineering Concepts Demonstrated
+### Engineering Concepts
 
-- RESTful API design
-- Layered architecture
-- Role-based authorization
-- Secure authentication
-- DTO-based API communication
-- Database persistence
-- Transaction management
-- Input validation
-- Exception handling
-- Booking concurrency considerations
+- RESTful API Design
+- Authentication
+- Authorization
+- Role-Based Access Control
+- DTO Architecture
+- Database Persistence
+- Transaction Management
+- Input Validation
+- Exception Handling
+- Booking Concurrency
 - Containerization
 - CI/CD
 
+👉 **[Open Hotel & Flight Booking Project →](https://github.com/gawandeshil03-ops/Hotel-Flight-Booking-Platform)**
+
 ---
 
-# 🧰 Overall Technical Skills Demonstrated
+# 🛠️ Technical Skills
 
-### 💻 Programming
+## Programming Languages
 
 - Java
 - JavaScript
@@ -264,7 +281,7 @@ The system provides hotel and flight search, booking management, user authentica
 - HTML
 - CSS
 
-### ⚙️ Backend
+## Backend
 
 - Spring Boot
 - Spring MVC
@@ -272,11 +289,10 @@ The system provides hotel and flight search, booking management, user authentica
 - Spring Data JPA
 - Hibernate
 - REST APIs
-- JWT Authentication
+- JWT
 - Bean Validation
-- Global Exception Handling
 
-### 🖥️ Frontend
+## Frontend
 
 - React
 - React Router
@@ -285,105 +301,82 @@ The system provides hotel and flight search, booking management, user authentica
 - TypeScript
 - Tailwind CSS
 
-### 🗄️ Databases
+## Databases
 
 - PostgreSQL
 - MySQL
 - H2
 - Redis
 
-### 📨 Distributed Systems
+## Microservices & Distributed Systems
 
+- Microservices Architecture
 - Apache Kafka
 - RabbitMQ
-- Microservices
-- Event-driven architecture
+- Event-Driven Architecture
 - Saga Pattern
 - Outbox Pattern
+- API Gateway
+- Service Discovery
 - Idempotency
 
-### 🐳 DevOps
+## DevOps & Tools
 
 - Docker
 - Docker Compose
+- Git
+- GitHub
 - GitHub Actions
-- CI/CD
+- Maven
+- Postman
+- Swagger / OpenAPI
 - Prometheus
 - Grafana
 - Zipkin
-
-### 🔧 Development Tools
-
-- Git
-- GitHub
-- Maven
-- Swagger / OpenAPI
-- Postman
 - IntelliJ IDEA
 
 ---
 
-# 📊 Project Coverage
+# 📊 Portfolio Overview
 
-| Engineering Area | E-Commerce | FinTech | Booking |
-|---|:---:|:---:|:---:|
-| Java | ✅ | ✅ | ✅ |
-| Spring Boot | ✅ | ✅ | ✅ |
-| Spring Security | ✅ | ✅ | ✅ |
-| REST APIs | ✅ | ✅ | ✅ |
-| JWT | ✅ | ✅ | ✅ |
-| React | ✅ | ✅ | ✅ |
-| SQL Database | ✅ | ✅ | ✅ |
-| Docker | ✅ | ✅ | ✅ |
-| Authentication | ✅ | ✅ | ✅ |
-| Role-Based Access | ✅ | ✅ | ✅ |
-| Transaction Management | ✅ | ✅ | ✅ |
-| Microservices | ✅ | — | — |
-| Kafka | ✅ | Optional | — |
-| RabbitMQ | ✅ | — | — |
-| Redis | ✅ | Optional | — |
-| CI/CD | ✅ | — | ✅ |
-| Swagger/OpenAPI | ✅ | ✅ | ✅ |
-| Event-Driven Architecture | ✅ | Optional | — |
+| Project | Domain | Backend | Frontend | Database | Architecture |
+|---|---|---|---|---|---|
+| 🛒 E-Commerce | E-Commerce | Java + Spring Boot | React | PostgreSQL | Microservices |
+| 🏦 FinTech | Banking | Java + Spring Boot | React | MySQL | Layered / Distributed |
+| ✈️ Booking | Travel | Java + Spring Boot | React + TypeScript | PostgreSQL | Full-Stack |
 
 ---
 
 # 🎯 Career Focus
 
-I am building my expertise toward roles such as:
+I am interested in opportunities such as:
 
-- **Full-Stack Java Developer**
-- **Java Backend Developer**
-- **Software Engineer**
-- **Spring Boot Developer**
-- **Backend Engineer**
-- **Full-Stack Developer**
+- Full-Stack Java Developer
+- Java Developer
+- Backend Developer
+- Spring Boot Developer
+- Software Engineer
+- Full-Stack Developer
 
-My projects focus on building applications that demonstrate not only CRUD functionality, but also **security, business logic, transactional integrity, distributed systems, API design, testing, scalability, and deployment practices**.
+My goal is to contribute to real-world software products while continuously improving my skills in **backend engineering, system design, databases, distributed systems, cloud technologies, and full-stack development**.
 
 ---
 
-# 📂 Portfolio Structure
+# 📁 Repository Structure
+
+This repository acts as my **Master Portfolio Repository**.
 
 ```text
-Full-Stack Java Developer Portfolio
+Master Portfolio
 │
 ├── 🛒 E-Commerce Microservices Platform
 │   └── Java-project-Portfolio
+│       └── Individual GitHub Repository
 │
 ├── 🏦 FinTech Banking Platform
 │   └── FinTech-Banking-Platform
+│       └── Individual GitHub Repository
 │
 └── ✈️ Hotel & Flight Booking Platform
     └── Hotel-Flight-Booking-Platform
-
-
----
-
-# 📫 Contact
-
-**Shil Gawande**
-
-📧 **Email:** gawandeshil9@gmail.com  
-📱 **Mobile:** +91 9172937014  
-💻 **GitHub:** [gawandeshil03-ops](https://github.com/gawandeshil03-ops)
+        └── Individual GitHub Repository
